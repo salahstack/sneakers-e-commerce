@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  body {
+    @apply bg-background text-onBackground min-h-dvh
+  }
+}
+
+@layer components {
+  /*
+  * Nav link
+  */
+  .nav-link {
+    @apply block duration-150 relative after:content-[''] after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-[2px] after:bg-primary after:transition-all after:duration-300;
+  }
+  
+  .nav-link.active {
+    @apply after:w-full;
+  }
+  
+  
+  /*
+  * Cart
+  */
+  .cart {
+    @apply origin-top scale-0 opacity-0 duration-200
+  }
+  .cart.active {
+    @apply scale-100 opacity-100
+  }
+  /*
+  * Sidebar
+  */
+  .sidebar {
+    @apply -translate-x-full duration-200;
+  }
+  .sidebar.active {
+    @apply translate-x-0;
+  }
+  /*
+  * Button
+  */
+  .btn {
+    @apply duration-150
+  }
+  .btn:active {
+    @apply scale-95
+  }
+  .btn.active {
+    @apply  ring-2 ring-primary
+  }
+}
