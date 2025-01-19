@@ -42,8 +42,8 @@ const ProductDetails = () => {
         <span>back</span>
         </Link>
         <div className="flex items-center justify-between md:justify-around gap-9 flex-col md:flex-row mt-4 md:mt-9">
-          <div className="flex flex-col items-center gap-4 basis-1/2">
-            <figure className="overflow-hidden rounded-md h-[20rem] md:h-[27rem]">
+          <div className="flex flex-col items-center gap-4 max-md:w-full max-md:max-w-[480px] basis-1/2">
+            <figure className="overflow-hidden rounded-md h-[20rem] md:h-[27rem] w-[inherit]">
               <img
                 src={productImage}
                 alt={product.name}

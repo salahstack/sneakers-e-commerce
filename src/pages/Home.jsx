@@ -1,4 +1,8 @@
 /**
+ * Node modules
+ */
+import { Link } from "react-router-dom";
+/**
  * Assets
  */
 import { brand } from "../assets";
@@ -6,6 +10,7 @@ import { brand } from "../assets";
  * Components
  */
 
+// import ProductList from "../components/ProductList";
 import ProductList from "../components/ProductList";
 
 const Home = () => {
@@ -25,9 +30,9 @@ const Home = () => {
               and striking color combinations that make a bold fashion
               statement.
             </p>
-            <button className="bg-primary text-onPrimary px-3 py-1 rounded-lg mt-4">
+            <Link to='/products' className="btn inline-block bg-primary text-onPrimary px-3 py-1 rounded-lg mt-4">
               SHOP NOW
-            </button>
+            </Link>
           </div>
           <div className="h-96 overflow-hidden rounded-3xl">
             <img

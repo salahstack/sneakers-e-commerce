@@ -13,7 +13,7 @@ const Layout = () => {
   return (
     <div className="min-h-dvh flex flex-col">
       <Header />
-      <main>
+      <main className="flex-grow">
         <Outlet />
       </main>
       <Footer />
