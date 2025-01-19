@@ -7,7 +7,7 @@ import { about } from "../assets";
 const About = () => {
   return (
     <section>
-      <div className="container mx-auto px:4 md:px-6 flex items-center justify-between gap-8 flex-col md:flex-row">
+      <div className="container mx-auto px-4 md:px-6 flex items-center justify-between gap-8 flex-col md:flex-row">
           <figure className="h-96 rounded-lg overflow-hidden">
             <img src={about} alt="about" className="w-full h-full" />
           </figure>
