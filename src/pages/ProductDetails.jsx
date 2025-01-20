@@ -41,9 +41,9 @@ const ProductDetails = () => {
           <span className="material-symbols-outlined">arrow_back</span>
         <span>back</span>
         </Link>
-        <div className="flex items-center justify-between md:justify-around gap-9 flex-col md:flex-row mt-4 md:mt-9">
-          <div className="flex flex-col items-center gap-4 max-md:w-full max-md:max-w-[480px] basis-1/2">
-            <figure className="overflow-hidden rounded-md h-[20rem] md:h-[27rem] w-[inherit]">
+        <div className="items-center grid grid-cols-1 md:grid-cols-2 gap-9 mt-4 md:mt-9">
+          <div className="flex flex-col items-center gap-4 mx-auto w-full max-w-[480px]">
+            <figure className="overflow-hidden rounded-md h-[20rem] md:h-[23rem] w-[inherit]">
               <img
                 src={productImage}
                 alt={product.name}
@@ -72,7 +72,7 @@ const ProductDetails = () => {
               })}
             </div>
           </div>
-          <div className="grid grid-cols-1 gap-5 basis-1/2">
+          <div className="grid grid-cols-1 gap-5">
             <h2 className="text-4xl font-medium">{product.name}</h2>
             <p className="text-lg text-onSurface">{product.description}</p>
             <span className="text-4xl font-semibold">

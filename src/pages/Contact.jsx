@@ -14,8 +14,9 @@ const Contact = () => {
           <div>
             <label className="mb-3 inline-block" htmlFor="message">Message</label>
             <textarea
+            placeholder="message"
               name="message"
-              className="min-h-28 resize-none"
+              className="min-h-28 resize-none placeholder:text-onBackground/85"
             ></textarea>
           </div>
           <button className="btn grid place-content-center bg-primary text-onPrimary px-3 h-10 rounded-lg" type="submit">Send</button>

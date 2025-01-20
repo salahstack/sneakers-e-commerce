@@ -7,8 +7,8 @@ import { about } from "../assets";
 const About = () => {
   return (
     <section>
-      <div className="container mx-auto px-4 md:px-6 flex items-center justify-between gap-8 flex-col md:flex-row">
-          <figure className="h-96 rounded-lg overflow-hidden">
+      <div className="container mx-auto px-4 md:px-6 grid grid-cols-1 md:grid-cols-2 items-center gap-8">
+          <figure className="h-96 rounded-lg overflow-hidden w-full max-w-[500px] mx-auto">
             <img src={about} alt="about" className="w-full h-full" />
           </figure>
         <div className="text-center">
