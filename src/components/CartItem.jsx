@@ -6,6 +6,10 @@ import { deleteIcon } from "../assets";
  * Hooks
  */
 import useCart from "../hooks/useCart";
+/**
+ * Components
+ */
+import { IconButton } from "./Button";
 
 const CartItem = ({ item }) => {
   const { deleteItem } = useCart();
@@ -18,9 +22,9 @@ const CartItem = ({ item }) => {
       <h6 className="text-onSurface">{item.name}</h6>
       <span className=" mt-3 font-medium text-sm text-onSurface">${item.price.toFixed(2)} x {item.quantity}  <strong className="text-onBackground">${(item.price * item.quantity).toFixed(2)}</strong></span>
       </div>
-      <button onClick={() => deleteItem(item)} className="w-10 h-10 grid place-content-center ml-auto">
+      <IconButton onClick={() => deleteItem(item)} classes="ml-auto">
         <img src={deleteIcon} alt="delete" />
-      </button>
+      </IconButton>
     </div>
   )
 }

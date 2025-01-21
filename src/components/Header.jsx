@@ -12,6 +12,7 @@ import { logo, cartIcon, menuIcon } from "../assets";
  */
 import Cart from "./Cart";
 import Sidebar from "./Sidebar";
+import { IconButton } from "./Button";
 /**
  * hooks
  */
@@ -31,12 +32,12 @@ const Header = () => {
     <>
       <header className="h-20 border-b border-b-outline/30 mb-6 md:mb-14 relative">
         <div className="container mx-auto px-4 md:px-6 flex items-center justify-between gap-5 h-full">
-          <button
+          <IconButton
             onClick={setShowSidebar}
-            className="btn w-10 h-10 grid place-content-center md:hidden"
+            classes="md:hidden"
           >
             <img src={menuIcon} alt="menu" />
-          </button>
+          </IconButton>
           <NavLink to="/">
             <img src={logo} alt="logo" />
           </NavLink>
@@ -85,9 +86,9 @@ const Header = () => {
             </ul>
           </nav>
           <div>
-            <button
+            <IconButton
               onClick={setShowCart}
-              className="btn w-10 h-10 grid place-content-center relative"
+              classes="relative"
             >
               <img src={cartIcon} alt="cart icon" />
               {totalItems > 0 && (
@@ -95,7 +96,7 @@ const Header = () => {
                   {totalItems}
                 </span>
               )}
-            </button>
+            </IconButton>
           </div>
         </div>
         <Cart showCart={showCart} />

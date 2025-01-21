@@ -6,6 +6,7 @@ import { NavLink } from "react-router-dom";
  * Assets
  */
 import { closeIcon, logo } from "../assets";
+import { IconButton } from "./Button";
 
 const Sidebar = ({ showSidebar, setShowSidebar }) => {
   return (
@@ -22,12 +23,11 @@ const Sidebar = ({ showSidebar, setShowSidebar }) => {
           <NavLink to="/" onClick={setShowSidebar}>
             <img src={logo} alt="logo" />
           </NavLink>
-          <button
+          <IconButton
             onClick={setShowSidebar}
-            className="btn w-10 h-10 grid place-content-center"
           >
             <img src={closeIcon} alt="close" />
-          </button>
+          </IconButton>
         </div>
         <nav>
           <ul className="flex flex-col gap-4">

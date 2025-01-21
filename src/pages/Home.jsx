@@ -9,8 +9,6 @@ import { brand } from "../assets";
 /**
  * Components
  */
-
-// import ProductList from "../components/ProductList";
 import ProductList from "../components/ProductList";
 
 const Home = () => {
@@ -30,7 +28,7 @@ const Home = () => {
               and striking color combinations that make a bold fashion
               statement.
             </p>
-            <Link to='/products' className="btn inline-block bg-primary text-onPrimary px-3 py-1 rounded-lg mt-4">
+            <Link to='/products' className="btn filled primary w-fit mt-4">
               SHOP NOW
             </Link>
           </div>

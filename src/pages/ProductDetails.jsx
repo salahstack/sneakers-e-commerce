@@ -12,6 +12,10 @@ import products from "../utils/products";
  */
 import { addIcon, minusIcon, CartWhiteIcon } from "../assets";
 import useCart from "../hooks/useCart";
+/**
+ * Components
+ */
+import { Button } from "../components/Button";
 
 const ProductDetails = () => {
   const { addItem, cartItems } = useCart();
@@ -54,8 +58,8 @@ const ProductDetails = () => {
               {product.images.map((image, index) => {
                 return (
                   <button
-                    className={`btn ${
-                      image === productImage ? "active" : ""
+                    className={`active:scale-95 duration-150 ${
+                      image === productImage ? "ring-2 ring-primary" : ""
                     } w-16 h-16 rounded-md overflow-hidden`}
                     key={index}
                     onClick={() => handleImageChange(image)}
@@ -93,13 +97,12 @@ const ProductDetails = () => {
                 <img src={minusIcon} alt="minus" />
               </button>
             </div>
-            <button
+            <Button
               onClick={() => {addItem({ ...product, quantity }); resetQuantity()}}
-              className="btn flex items-center justify-center gap-3 bg-primary text-onPrimary px-3 h-12 rounded-lg"
             >
               <img src={CartWhiteIcon} alt="cart" />
               <span>Add to Cart</span>
-            </button>
+            </Button>
           </div>
         </div>
       </div>

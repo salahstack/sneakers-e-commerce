@@ -12,6 +12,10 @@ import { addIcon, minusIcon } from "../assets";
  * Hooks
  */
 import useCart from "../hooks/useCart";
+/**
+ * Components
+ */
+import { Button } from "./Button";
 
 const Product = ({ product, text = "Discover", buy = false }) => {
   const { addItem, cartItems } = useCart();
@@ -46,11 +50,11 @@ const Product = ({ product, text = "Discover", buy = false }) => {
         <div className="flex items-center justify-between gap-2 mt-4">
           {
             buy ? (
-              <button onClick={() => { addItem({...product, quantity}); resetQuantity(); }} className="grid place-content-center bg-primary text-onPrimary px-3 h-10 rounded-lg w-fit">{text}</button>
+              <Button onClick={() => { addItem({...product, quantity}); resetQuantity(); }}>{text}</Button>
             ) : (
               <Link
                 to="/products"
-                className="grid place-content-center bg-primary text-onPrimary px-3 h-10 rounded-lg w-fit"
+                className="btn primary filled w-fit"
               >{text}</Link>
             )
           }
@@ -68,7 +72,7 @@ const Product = ({ product, text = "Discover", buy = false }) => {
         </div>
         {
           buy && (
-            <Link to={`/products/${product.id}`} className="btn grid place-content-center bg-primary text-onPrimary px-3 h-10 rounded-lg mt-4">View Details</Link>
+            <Link to={`/products/${product.id}`} className="btn filled primary mt-4">View Details</Link>
           )
         }
       </div>
