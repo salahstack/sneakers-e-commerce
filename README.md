@@ -9,12 +9,13 @@ Welcome to the Sneaker E-commerce Website! This is an online platform where user
 - [Getting Started](#getting-started)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Screenshots](#screenshots)
 - [Contributing](#contributing)
 - [License](#license)
 
 ## Description
 
-The Sneaker E-commerce Website allows users to:
+The Sneakers E-commerce Website allows users to:
 
 - Browse a wide range of sneakers.
 - Add products to their cart.
@@ -68,6 +69,14 @@ This project features a fully functional sneaker e-commerce website. You can:
 - View details of each sneaker, including images, price, and description.
 - Add sneakers to your shopping cart.
 - Proceed to checkout to finalize your order.
+
+## Screenshots
+
+![Screenshot 1](src/assets/screenshot1.png)
+![Screenshot 2](src/assets/screenshot2.png)
+![Screenshot 2](src/assets/screenshot3.png)
+![Screenshot 2](src/assets/screenshot4.png)
+![Screenshot 2](src/assets/screenshot5.png)
 
 ## Contributing
 
