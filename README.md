@@ -58,7 +58,7 @@ To get a local copy up and running, follow these simple steps:
     npm run dev
     ```
 
-3. Open your browser and go to [http://localhost:3000](http://localhost:5173) to view the app.
+3. Open your browser and go to [http://localhost:5173](http://localhost:5173) to view the app.
 
 ## Usage
 
