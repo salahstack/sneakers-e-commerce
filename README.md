@@ -38,7 +38,7 @@ To get a local copy up and running, follow these simple steps:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/sneaker-ecommerce.git
+    https://github.com/SalahEddineMj/e-commerce.git
     ```
 
 2. Navigate into the project directory:
