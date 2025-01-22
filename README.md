@@ -8,8 +8,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/your_username/sneakers-ecommerce">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/SalahEddineMj/sneakers-ecommerce">
+    <img src="assets/banner.png" alt="Logo" width="80" height="80">
   </a>
   <h3 align="center">Sneakers E-Commerce</h3>
   <p align="center">
@@ -18,7 +18,7 @@
     <a href="https://github.com/your_username/sneakers-ecommerce"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/your_username/sneakers-ecommerce">View Demo</a>
+    <a href="https://sneackers-e-commerce.netlify.app/">View Demo</a>
     &middot;
     <a href="https://github.com/your_username/sneakers-ecommerce/issues/new?labels=bug&template=bug-report.md">Report Bug</a>
     &middot;
