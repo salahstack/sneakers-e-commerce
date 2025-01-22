@@ -39,7 +39,7 @@ const ProductDetails = () => {
   const handleImageChange = (image) => setProductImage(image);
 
   return (
-    <section>
+    <section className="pt-[124px] md:pt-32">
       <div className="container mx-auto px-4 md:px-6">
         <Link to='/products' className="btn text-onBackground w-10 h-10 flex items-center gap-2">
           <span className="material-symbols-outlined">arrow_back</span>

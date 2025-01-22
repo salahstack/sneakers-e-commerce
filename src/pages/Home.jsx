@@ -14,7 +14,7 @@ import ProductList from "../components/ProductList";
 const Home = () => {
   return (
     <article>
-      <section className="mb-14">
+      <section className="mb-14 pt-[124px] md:pt-32">
         <div className="container mx-auto px-4 md:px-6 flex items-center justify-between md:justify-center gap-10 flex-col md:flex-row">
           <div>
             <h1 className="text-5xl font-medium">DISCOVER</h1>

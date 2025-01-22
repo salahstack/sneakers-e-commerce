@@ -5,7 +5,7 @@ import TextField from "../components/TextField";
 
 const Contact = () => {
   return (
-    <section>
+    <section className="pt-[124px] md:pt-32">
       <h1 className="text-center mb-8 text-3xl font-medium">Contact me</h1>
       <div className="container mx-auto px-4 md:px-6">
         <form className="w-full max-w-[450px] mx-auto grid grid-cols-1 gap-4">

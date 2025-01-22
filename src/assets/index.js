@@ -52,7 +52,8 @@ import pinkProduct1 from "./pink-product-1.webp";
 import pinkProduct2 from "./pink-product-2.webp";
 import pinkProduct3 from "./pink-product-3.webp";
 import pinkProduct4 from "./pink-product-4.webp";
-import about from './about-image.webp'
+import about from './about-image.webp';
+import banner from './banner.png';
 
 export {
   cartIcon,
@@ -109,5 +110,6 @@ export {
   pinkProduct2,
   pinkProduct3,
   pinkProduct4,
-  about
+  about,
+  banner
 };
