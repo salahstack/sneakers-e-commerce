@@ -72,11 +72,11 @@ This project features a fully functional sneaker e-commerce website. You can:
 
 ## Screenshots
 
-![Screenshot 1](src/assets/screenshot1.png)
-![Screenshot 2](src/assets/screenshot2.png)
-![Screenshot 2](src/assets/screenshot3.png)
+![Screenshot 1](src/assets/screenshot5.png)
 ![Screenshot 2](src/assets/screenshot4.png)
-![Screenshot 2](src/assets/screenshot5.png)
+![Screenshot 2](src/assets/screenshot3.png)
+![Screenshot 2](src/assets/screenshot2.png)
+![Screenshot 2](src/assets/screenshot1.png)
 
 ## Contributing
 
