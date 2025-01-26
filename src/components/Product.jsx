@@ -33,13 +33,13 @@ const Product = ({ product, text = "Discover", buy = false }) => {
   const resetQuantity = () => setQuantity(0);
 
   return (
-    <div className="card rounded-lg overflow-hidden bg-surface shadow-md">
+    <div className="product-card rounded-lg overflow-hidden bg-surface shadow-md">
       <div className="card-banner">
-        <figure className="h-56">
+        <figure className="img-box h-56 overflow-hidden">
           <img
             src={product.image}
             alt={product.name}
-            className="object-cover w-full h-full"
+            className="img-cover object-cover w-full h-full"
           />
         </figure>
       </div>

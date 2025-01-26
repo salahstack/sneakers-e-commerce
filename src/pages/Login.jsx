@@ -15,7 +15,7 @@ const Login = () => {
           </Link>
           <div className="flex flex-col p-4 w-full max-w-[480px] mx-auto">
             <h2 className="text-4xl font-semibold text-center">Welcome Back to Sneakers</h2>
-            <p className="text-onSurface mt-1 mb-5 px-2">
+            <p className="text-onSurface mt-1 mb-5 px-2 text-center">
               Enter your Sneakers account details.
             </p>
             <Form method="post" className="grid grid-cols-1 gap-4">

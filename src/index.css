@@ -158,4 +158,23 @@
   .link {
     @apply duration-150 hover:underline hover:text-primary
   }
+  /**
+  * Img box
+  */
+  .img-cover {
+    @apply duration-200
+  }
+
+  /**
+  * Product card
+  */
+  .product-card:where(:hover, :focus-within) .img-cover {
+    @apply scale-[1.1] rotate-2;
+  }
+  .img-box {
+    @apply duration-200
+  }
+  .product-card:where(:hover, :focus-within) .img-box {
+    @apply bg-blue-600
+  }
 }

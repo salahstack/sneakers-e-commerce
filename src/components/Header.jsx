@@ -32,7 +32,7 @@ const Header = () => {
   }, 0);
   return (
     <>
-      <header className="h-20 border-b border-b-outline/30 fixed top-0 left-0 w-full bg-surface shadow-sm">
+      <header className="h-20 border-b border-b-outline/30 fixed z-20 top-0 left-0 w-full bg-surface shadow-sm">
         <div className="container mx-auto px-4 md:px-6 flex items-center justify-between gap-5 h-full">
           <IconButton onClick={setShowSidebar} classes="lg:hidden">
             <img src={menuIcon} alt="menu" />
