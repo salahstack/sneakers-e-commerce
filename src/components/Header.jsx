@@ -12,7 +12,7 @@ import { logo, cartIcon, menuIcon } from "../assets";
  */
 import Cart from "./Cart";
 import Sidebar from "./Sidebar";
-import { Button, IconButton } from "./Button";
+import { IconButton } from "./Button";
 /**
  * hooks
  */
